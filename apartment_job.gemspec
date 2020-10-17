@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors     = ['Muhammad Usman']
   spec.email       = ['uxman.sherwani@gmail.com']
   spec.homepage    = 'https://github.com/uxxman/apartment_job'
-  spec.summary     = 'ActiveJob wrapper for the Apartment Gem'
-  spec.description = 'Enables ActiveJob to work with Apartment multi-tenancy'
+  spec.summary     = 'ActiveJob support for Apartment Gem'
+  spec.description = 'ActiveJob wrapper to enable Apartment multi-tenancy for background jobs'
   spec.license     = 'MIT'
 
   spec.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
