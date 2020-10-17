@@ -15,7 +15,7 @@ module ApartmentJob
 
   def deserialize(job_data)
     super
-    @tenant = job_data[:tenant]
+    @tenant = job_data['tenant']
   end
 end
 
