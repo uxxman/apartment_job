@@ -1,0 +1,3 @@
+module ApartmentJob
+  # Your code goes here...
+end
